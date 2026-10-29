@@ -1,0 +1,33 @@
+$ c++ -std=c++17 -Wall -Wextra Task02/main.cpp -o /tmp/assignment-evidence
+$ /tmp/assignment-evidence
+moderated: 82
+assigned: 90 copy: 0
+index after growth: 2
+
+$ c++ -std=c++17 -Wall -Wextra -c Task02/dangling.cpp -o /tmp/assignment-evidence.o
+Task02/dangling.cpp:2:35: warning: reference to stack memory associated with local variable 'local' returned [-Wreturn-stack-address]
+    2 | int& bad() { int local=42; return local; }
+      |                                   ^~~~~
+1 warning generated.
+
+$ c++ -std=c++17 -Wall -Wextra Task03/main.cpp -o /tmp/assignment-evidence
+$ /tmp/assignment-evidence
+grams 0.1
+kg 100
+kg 100
+parcel 130
+grams 30.1
+kg 150
+
+$ c++ -std=c++17 -Wall -Wextra Task03/ambiguous.cpp -o /tmp/assignment-evidence
+Task03/ambiguous.cpp:4:38: error: call to 'charge' is ambiguous
+    4 | int main() { return static_cast<int>(charge(2.0)); }
+      |                                      ^~~~~~
+Task03/ambiguous.cpp:1:8: note: candidate function
+    1 | double charge(double);
+      |        ^
+Task03/ambiguous.cpp:3:8: note: candidate function
+    3 | double charge(double,bool=false,bool=false);
+      |        ^
+1 error generated.
+[compiler exit: 1]
