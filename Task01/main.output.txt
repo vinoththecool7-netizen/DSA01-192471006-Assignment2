@@ -1,0 +1,4 @@
+Task01/main.cpp
+inside value: 40500
+stored: 45000 40500 40500
+returned: 40500
