@@ -1,0 +1,3 @@
+capacity 10 inserts 200000 identical yes shift 1.08246 ms ring 1.13071 ms
+capacity 50 inserts 200000 identical yes shift 2.03638 ms ring 1.09417 ms
+capacity 1000 inserts 200000 identical yes shift 13.4475 ms ring 1.07717 ms
