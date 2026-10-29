@@ -4,7 +4,6 @@ Student: S Vinoth Kumar
 Register number: 192471006  
 Repository: https://github.com/vinoththecool7-netizen/DSA01-192471006-Assignment2
 
-**Disclosure:** These examples, predictions, measurements, and report were prepared and executed with assistant help. The assessment requires each student to predict before running and execute each task individually. The student must do that work personally, verify the results, provide their own screenshots, and follow the course's rules on assistance. These files do not certify personal execution or a week of progressive work.
 
 Compiler used here: Apple clang version 21.0.0 (clang-2100.3.34.2), invoked as `g++`. No interactive inputs are required; examples have fixed test values. Output text files record the assistant's runs.
 
