@@ -1,0 +1,20 @@
+$ c++ -std=c++17 -Wall -Wextra Task01/main.cpp -o /tmp/assignment-evidence
+$ /tmp/assignment-evidence
+inside value: 40500
+stored: 45000 40500 40500
+returned: 40500
+
+$ c++ -std=c++17 -Wall -Wextra Task01/predict.cpp -o /tmp/assignment-evidence
+Task01/predict.cpp:2:17: warning: parameter 'a' set but not used [-Wunused-but-set-parameter]
+    2 | void change(int a,int& b,int* c) { a+=10; b+=10; *c+=10; }
+      |                 ^
+1 warning generated.
+$ /tmp/assignment-evidence
+1 12 13
+1 100
+16 13 6 
+
+$ c++ -std=c++17 -Wall -Wextra Task01/complete.cpp -o /tmp/assignment-evidence
+$ /tmp/assignment-evidence
+after call by value : 45000
+after call by reference: 40500
