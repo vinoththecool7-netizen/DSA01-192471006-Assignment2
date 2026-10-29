@@ -1,0 +1,4 @@
+Task02/dangling.cpp:2:35: warning: reference to stack memory associated with local variable 'local' returned [-Wreturn-stack-address]
+    2 | int& bad() { int local=42; return local; }
+      |                                   ^~~~~
+1 warning generated.

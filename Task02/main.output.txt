@@ -1,0 +1,4 @@
+Task02/main.cpp
+moderated: 82
+assigned: 90 copy: 0
+index after growth: 2
