@@ -1,0 +1,7 @@
+Task05/function.cpp
+seat 1
+seat 2
+issued 2
+seat 3
+seat 0
+issued 3
