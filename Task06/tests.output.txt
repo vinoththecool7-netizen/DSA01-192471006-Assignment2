@@ -1,0 +1,3 @@
+Task06/tests.cpp
+10 true
+0 false

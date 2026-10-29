@@ -1,0 +1,4 @@
+inline: 46.4951 ms checksum 2205000400
+noinline: 44.1605 ms checksum 2205000400
+member: 45.1015 ms checksum 2205000400
+getters: 80.0195 ms checksum 2205000400
