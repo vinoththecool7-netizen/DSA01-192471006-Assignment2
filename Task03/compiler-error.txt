@@ -1,0 +1,10 @@
+Task03/ambiguous.cpp:4:38: error: call to 'charge' is ambiguous
+    4 | int main() { return static_cast<int>(charge(2.0)); }
+      |                                      ^~~~~~
+Task03/ambiguous.cpp:1:8: note: candidate function
+    1 | double charge(double);
+      |        ^
+Task03/ambiguous.cpp:3:8: note: candidate function
+    3 | double charge(double,bool=false,bool=false);
+      |        ^
+1 error generated.

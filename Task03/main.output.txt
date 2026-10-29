@@ -1,0 +1,7 @@
+Task03/main.cpp
+grams 0.1
+kg 100
+kg 100
+parcel 130
+grams 30.1
+kg 150
