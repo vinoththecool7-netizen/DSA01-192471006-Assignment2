@@ -1,0 +1,25 @@
+$ c++ -std=c++17 -Wall -Wextra Task04/main.cpp -o /tmp/assignment-evidence
+$ /tmp/assignment-evidence
+S001 balance 1046
+transactions: 3 4 5 6 7 8 9 10 11 -20
+
+$ c++ -std=c++17 -Wall -Wextra Task05/predict.cpp -o /tmp/assignment-evidence
+$ /tmp/assignment-evidence
+101 103 104 4
+
+$ c++ -std=c++17 -Wall -Wextra Task05/complete.cpp -o /tmp/assignment-evidence
+$ /tmp/assignment-evidence
+Asha: Seat 1
+Bala: Seat 2
+Chitra: Seat 3
+Dev: Waiting
+Issued: 3
+
+$ c++ -std=c++17 -Wall -Wextra Task05/function.cpp -o /tmp/assignment-evidence
+$ /tmp/assignment-evidence
+seat 1
+seat 2
+issued 2
+seat 3
+seat 0
+issued 3

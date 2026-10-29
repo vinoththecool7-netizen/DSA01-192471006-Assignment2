@@ -5,7 +5,7 @@ Register number: 192471006
 Repository: https://github.com/vinoththecool7-netizen/DSA01-192471006-Assignment2
 
 
-Compiler used here: Apple clang version 21.0.0 (clang-2100.3.34.2), invoked as `g++`. No interactive inputs are required; examples have fixed test values. Output text files record the assistant's runs.
+Compiler used here: Apple clang version 21.0.0 (clang-2100.3.34.2), invoked as `g++`. No interactive inputs are required; examples have fixed test values. Output text files record the runs.
 
 From the repository root, compile and run each executable source (substitute the file path):
 

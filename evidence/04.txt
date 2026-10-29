@@ -1,0 +1,22 @@
+$ c++ -std=c++17 -Wall -Wextra Task06/complete.cpp -o /tmp/assignment-evidence
+$ /tmp/assignment-evidence
+205 false
+
+$ c++ -std=c++17 -Wall -Wextra Task06/tests.cpp -o /tmp/assignment-evidence
+$ /tmp/assignment-evidence
+10 true
+0 false
+
+$ c++ -std=c++17 -Wall -Wextra -O0 Task06/benchmark.cpp -o /tmp/assignment-evidence
+$ /tmp/assignment-evidence
+inline: 53.3925 ms checksum 2205000400
+noinline: 44.8633 ms checksum 2205000400
+member: 45.193 ms checksum 2205000400
+getters: 80.2181 ms checksum 2205000400
+
+$ c++ -std=c++17 -Wall -Wextra -O2 Task06/benchmark.cpp -o /tmp/assignment-evidence
+$ /tmp/assignment-evidence
+inline: 19.0013 ms checksum 2205000400
+noinline: 14.8793 ms checksum 2205000400
+member: 6.55571 ms checksum 2205000400
+getters: 6.47438 ms checksum 2205000400

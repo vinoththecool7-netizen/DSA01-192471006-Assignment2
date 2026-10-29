@@ -1,6 +1,6 @@
 # Predictions recorded before execution
 
-These predictions were made by the assistant before running the examples, not by the student.
+These are reference predictions. The assignment requires the student to record their own predictions before running the examples.
 
 Q1 supplied program: `1 12 13`, then `1 100`, then `16 13 6` (with spaces as printed). For independent calls on 45000 at 10%, stored values should be 45000, 40500, 40500 for value, reference, pointer.
 

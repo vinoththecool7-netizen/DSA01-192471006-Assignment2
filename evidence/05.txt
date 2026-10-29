@@ -1,0 +1,5 @@
+$ c++ -std=c++17 -Wall -Wextra -O2 Task07/main.cpp -o /tmp/assignment-evidence
+$ /tmp/assignment-evidence
+capacity 10 inserts 200000 identical yes shift 1.42379 ms ring 1.02071 ms
+capacity 50 inserts 200000 identical yes shift 1.19567 ms ring 0.903042 ms
+capacity 1000 inserts 200000 identical yes shift 13.6749 ms ring 1.09871 ms

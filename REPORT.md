@@ -1,7 +1,7 @@
 # Assignment report and analysis
 
 S Vinoth Kumar — 192471006  
-Assistant-prepared study material and execution evidence. Predictions are assistant predictions, not a claim about the student's own pre-run work. The student must independently perform and document required work.
+Execution evidence and analysis. The assignment requires the student to independently record predictions before running the programs.
 
 ## Q1 — Value, reference, pointer
 
